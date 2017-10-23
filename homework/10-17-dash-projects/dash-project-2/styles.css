@@ -1,4 +1,7 @@
-header{
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+header {
   text-align: center;
   background: url("http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/sn-amazonH_0.jpg?itok=3szA6n15");
   background-size: cover;
@@ -20,7 +23,6 @@ h1 {
   }
 header h2 {
   font-size: 14px;
-  font-family: helvetica;
   text-transform: uppercase;
   letter-spacing: 5px;
   margin: 15px 0 50px;
