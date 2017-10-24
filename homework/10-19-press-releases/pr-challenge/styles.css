@@ -1,0 +1,46 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+
+}
+/* text styles */
+h1 {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 10px 0;
+}
+h4 {
+  font-size: .875em;
+  text-transform: uppercase;
+  letter-spacing: 1;
+  color: white;
+  background-color: red;
+  padding: 20px 30px;
+  margin: 0;
+}
+p {
+  margin: 0;
+  max-width: 900px;
+}
+ul {
+  columns: 3;
+  width: 50%;
+  list-style: none;
+  margin: 20px auto;
+}
+li {
+}
+a {
+}
+hr {
+}
+/* image styles */
+img {
+}
+/* classes */
+div.logo {
+  background-color: black;
+}
+div.hero img {
+  width: 100%;
+}
