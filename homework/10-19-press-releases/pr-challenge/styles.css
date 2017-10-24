@@ -1,46 +1,103 @@
-body {
-  font-family: helvetica, arial, sans-serif;
 
+/* structure */
+body {
+  font-family: 'Arimo', "Helvetica Neue", helvetica, sans-serif;
+  font-size: 16px;
+  background-image: url(https://jlr7245.github.io/ga_press_release_continued/hero.png);
+  background-size: cover;
+  background-color: #eee;
 }
-/* text styles */
+header {
+  padding: 50px 7% 0;
+}
+article {
+  width: 60%;
+  padding: 1px;
+  display: block;
+  float: left;
+}
+aside {
+  width: 30%;
+  padding: 3%;
+  display: block;
+  float: right;
+  border-left: 1px solid #ddd;
+}
+section {
+  padding: 0 7%;
+  margin-bottom: 50px;
+}
+.container {
+  width: 70%;
+  max-width: 1000px;
+  background-color: white;
+  border: 1px solid #ddd;
+  margin: 120px auto;
+  display: block;
+}
+
+/* text */
 h1 {
-  font-size: 32px;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin: 10px 0;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 5px;
+}
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
 }
 h4 {
-  font-size: .875em;
+  font-family: 'Fira Mono', monospace;
+  font-style: italic;
   text-transform: uppercase;
-  letter-spacing: 1;
-  color: white;
-  background-color: red;
-  padding: 20px 30px;
-  margin: 0;
+  letter-spacing: 3px;
+  text-indent: 20px;
+  margin: 70px 0 5px;
 }
-p {
-  margin: 0;
-  max-width: 900px;
+aside p {
+  font-size: 1.3em;
 }
 ul {
-  columns: 3;
-  width: 50%;
-  list-style: none;
-  margin: 20px auto;
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0;
 }
 li {
+  display: inline;
+  padding: 12px;
 }
 a {
+  text-decoration: none;
+  color: #CF4948;
 }
-hr {
+.white a{
+  color: white;
 }
-/* image styles */
-img {
+
+/* objects */
+.logoTop img{
+  max-height: 150px;
 }
-/* classes */
-div.logo {
-  background-color: black;
+button {
+  font-size: 1.2em;
+  border: 5px solid;
+  border-radius: 20px;
+  background: none;
+  padding: 5px 10px;
+  font-family: 'Fira Mono', monospace;
 }
-div.hero img {
-  width: 100%;
+button.red {
+  border-color: #CF4948;
+}
+button.white {
+  border-color: white;
+}
+.logoSuperscript:after {
+  height: 16px;
+  width: 16px;
+  background-image: url(logo.png);
+}
+
+/* colors */
+.red {
+  color: #CF4948;
 }
