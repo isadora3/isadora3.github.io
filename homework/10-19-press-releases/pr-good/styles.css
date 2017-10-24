@@ -1,70 +1,41 @@
 body {
-  font-family: Jaldi, Helvetica, sans-serif;
-  background-image: url(https://res.cloudinary.com/jkeohan/image/upload/v1465860054/GAbg_faded_aatkni.png);
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-attachment: fixed;
-  background-color: #f1f1f1;
-  line-height: 1.25;
-  font-size: 20px;
+
 }
 /* text styles */
 h1 {
-  max-width: 800px;
-  margin: auto;
-  padding-top: 5px;
-  text-align: left;
-  line-height: 48px;
-  font-size: 48px;
 }
 h4 {
-  max-width: 800px;
-  margin: auto;
-  color: red;
+  font-family: helvetica, arial, sans-serif;
+  font-size: .875em;
+  text-transform: uppercase;
+  color: white;
+  background-color: red;
+  padding: 20px 30px;
+  margin: 0;
 }
 ul {
-  list-style-type: none;
-  text-align: center;
-  padding-left: 0;
 }
 li {
-  display: inline;
-  padding: 12px;
 }
 a {
-  color: red;
 }
 hr {
-  max-width: 800px;
-  margin: auto;
-  border-top: 1px dotted #ccc;
 }
 /* image styles */
 img {
-  width: 100px;
-  height: 100px;
 }
 /* classes */
-/* Is it best practice to target the div even if it still works to just target the class? I followed the way the original code uses "div." before each class, but I'm not sure why they did it because, at least in this example, you don't need that for the styles to work. */
-div.intro {
-  max-width: 800px;
-  margin: auto;
-}
 div.logo {
-  max-width: 800px;
-  margin: auto;
-  padding-top: 10px;
+  background-color: black;
+}
+div.hero img {
+  width: 100%;
+}
+div.headline h4 {
+}
+div.intro {
 }
 div.locations {
-  max-width: 550px;
-  margin: auto;
-  padding: 5px;
-  line-height: 1.5;
-  font-weight: bold;
 }
 div.more-info {
-  max-width: 800px;
-  margin: auto;
-  font-size: 16px;
-  text-align: center;
 }
