@@ -18,6 +18,16 @@ body {
 header {
   padding: 50px 7% 0;
 }
+.col {
+  width: 30%;
+  display: inline-block;
+  background-color: black;
+}
+.col div {
+  margin: 9%;
+  height: 20px;
+  background-color: pink;
+}
 section {
   padding: 0 7%;
 }
