@@ -14,6 +14,7 @@ body {
   border-bottom: 1px solid #ddd;
   background-color: white;
   display: block;
+  overflow: auto;
 }
 header {
   padding: 50px 7% 0;
