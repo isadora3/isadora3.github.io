@@ -7,8 +7,20 @@ body {
   background-size: cover;
   background-color: #eee;
 }
+.container {
+  width: 70%;
+  max-width: 1000px;
+  margin: 120px auto;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+  display: block;
+}
 header {
   padding: 50px 7% 0;
+}
+section {
+  margin-bottom: 50px;
+  padding: 0 7%;
 }
 article {
   width: 60%;
@@ -22,18 +34,6 @@ aside {
   display: block;
   float: right;
   border-left: 1px solid #ddd;
-}
-section {
-  padding: 0 7%;
-  margin-bottom: 50px;
-}
-.container {
-  width: 70%;
-  max-width: 1000px;
-  background-color: white;
-  border: 1px solid #ddd;
-  margin: 120px auto;
-  display: block;
 }
 
 /* text */
@@ -62,8 +62,14 @@ ul {
   padding-left: 0;
 }
 li {
-  display: inline;
-  padding: 12px;
+  font-family: 'Fira Mono', monospace;
+  color: white;
+  background-color: #CF4948;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 3px 12px;
+  margin: 5px;
+  border-bottom: 2px solid #A20101;
 }
 a {
   text-decoration: none;
@@ -94,7 +100,11 @@ button.white {
 .logoSuperscript:after {
   height: 16px;
   width: 16px;
-  background-image: url(logo.png);
+  background-image: url("images/logo.png");
+  background-size: cover;
+  display: inline-block;
+  margin: 0 0 2px 4px;
+  content: " ";
 }
 
 /* colors */
