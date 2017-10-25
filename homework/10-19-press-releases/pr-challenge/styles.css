@@ -19,14 +19,12 @@ header {
   padding: 50px 7% 0;
 }
 .col {
-  width: 30%;
+  width: 33.33%;
   display: inline-block;
-  background-color: black;
+  background-color: white;
 }
 .col div {
   margin: 9%;
-  height: 20px;
-  background-color: pink;
 }
 section {
   padding: 0 7%;
@@ -47,9 +45,12 @@ aside {
 }
 hr {
   width: 100%;
-  padding: 1px auto;
+  margin: 0;
   border: none;
   border-top: 1px solid #ddd;
+}
+div.cta {
+  background-color: #CF4948;
 }
 
 /* text */
@@ -69,6 +70,12 @@ h4 {
   letter-spacing: 3px;
   text-indent: 20px;
   margin: 70px 0 5px;
+}
+h5 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  letter-spacing: .5px;
+  margin: 0 0 15px;
 }
 aside p {
   font-size: 1.3em;
@@ -113,6 +120,7 @@ button.red {
 }
 button.white {
   border-color: white;
+  color: white;
 }
 .logoSuperscript:after {
   height: 16px;
@@ -123,8 +131,14 @@ button.white {
   margin: 0 0 2px 4px;
   content: " ";
 }
+.center {
+  text-align: center;
+}
 
 /* colors */
 .red {
   color: #CF4948;
+}
+.white {
+  color: white;
 }
