@@ -24,7 +24,10 @@ header {
   background-color: white;
 }
 .col div {
-  margin: 9%;
+  padding: 9%;
+}
+div.borderTop {
+  border-top: 1px solid #ddd;
 }
 section {
   padding: 0 7%;
@@ -47,10 +50,15 @@ hr {
   width: 100%;
   margin: 0;
   border: none;
-  border-top: 1px solid #ddd;
+}
+div.branding {
+  background-color: #ddd;
 }
 div.cta {
   background-color: #CF4948;
+}
+.center {
+  text-align: center;
 }
 
 /* text */
@@ -85,7 +93,7 @@ ul {
   text-align: center;
   padding-left: 0;
 }
-li {
+.locations li {
   font-family: 'Fira Mono', monospace;
   color: white;
   background-color: #CF4948;
@@ -94,6 +102,11 @@ li {
   padding: 3px 12px;
   margin: 5px;
   border-bottom: 2px solid #A20101;
+}
+.contactInfo li {
+  font-family: 'Fira Mono', monospace;
+  text-align: left;
+  line-height: 2;
 }
 a {
   text-decoration: none;
@@ -131,8 +144,11 @@ button.white {
   margin: 0 0 2px 4px;
   content: " ";
 }
-.center {
-  text-align: center;
+.col img {
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    max-width: 300px;
 }
 
 /* colors */
