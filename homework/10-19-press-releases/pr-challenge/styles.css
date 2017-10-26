@@ -18,13 +18,12 @@ body {
 header {
   padding: 50px 7% 0;
 }
-.col {
-  width: 33.33%;
-  display: inline-block;
+div.col {
+  width: 27.33%;
+  padding: 3%;
+  display: table-cell;
   background-color: white;
-}
-.col div {
-  padding: 9%;
+  vertical-align: middle;
 }
 div.borderTop {
   border-top: 1px solid #ddd;
