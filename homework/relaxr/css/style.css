@@ -1,7 +1,7 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr
+Client: General Assembly FEWD homework
+Author: Isadora Williams
 Developer @GA in NYC
 */
 
@@ -12,19 +12,19 @@ Developer @GA in NYC
 
 /* Box Model Hack */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
@@ -46,12 +46,10 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -67,17 +65,96 @@ body {
 
 }
 
-header {
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/*
+Open Sans:
 
+Light = 300
+Light Italic = 300i
+Semibold = 600
+Extrabold = 800
+
+Colors:
+
+benefits background: #f0efef
+yellow: #f9e42e
+dark blue: #033048
+light grey: #606161
+almost black: #121212
+
+Images:
+
+header_bg - http://res.cloudinary.com/jkeohan/image/upload/v1509050166/header_bg_f5pvpn.jpg
+testimonial_bg.jpg - http://res.cloudinary.com/jkeohan/image/upload/v1509050227/testimonial_bg_rd59w7.jpg 
+facebook.png - http://res.cloudinary.com/jkeohan/image/upload/v1509050265/facebook_qgtd3u.png 
+twitter.png - http://res.cloudinary.com/jkeohan/image/upload/v1509050288/twitter_zkx8xu.png
+*/
+
+
+/*text*/
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+p {
+  font-size: 18px;
+  font-weight: 300;
+}
+p.quote {
+  font-style: italic;
+}
+p.source {
+  font-weight: 600;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+}
+footer p {
+  font-size: 9px;
+  font-weight: 600;
+}
+
+
+/*semantic layout*/
+
+header {
+  background: url(http://res.cloudinary.com/jkeohan/image/upload/v1509050166/header_bg_f5pvpn.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
 }
 
 footer {
 
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+
+/*non-semantic layout*/
+
+button {
+  font-size: 12px;
+  font-weight: 800;
+  border-radius: 5px;
+}
+
+header button {
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
