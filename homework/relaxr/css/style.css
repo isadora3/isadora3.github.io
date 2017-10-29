@@ -101,7 +101,7 @@ twitter.png - http://res.cloudinary.com/jkeohan/image/upload/v1509050288/twitter
   font-weight: 800;
 }
 h1, h2 {
-  color: white;
+  color: #fff;
 }
 h2 {
   font-size: 24px;
@@ -110,30 +110,38 @@ h2 {
 h3 {
   font-size: 20px;
   font-weight: 600;
+  color: #033048;
 }
 p, ul {
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 300;
 }
 ul {
+  font-size: 13px;
+  font-weight: 300;
   list-style-type: dot;
   padding-left: 45px;
 }
 li::before {
   display: inline-block;
   content: '•';
-  font-size: 50px;
+  font-size: 30px;
   line-height: 0;
   color: #606161;
   vertical-align: middle;
-  margin-top: -6px;
-  padding-right: 4px;
+  margin-top: -5px;
+  padding-right: 3px;
+}
+p.quote, p.source {
+  font-size: 18px;
 }
 p.quote {
   font-style: italic;
+  color: #fff;
 }
 p.source {
   font-weight: 600;
+  color: #fff;
 }
 footer p.logo {
   color: #f9e42e;
@@ -141,7 +149,7 @@ footer p.logo {
 footer p {
   font-size: 9px;
   font-weight: 600;
-  color: white;
+  color: #fff;
 }
 
 
@@ -151,7 +159,13 @@ header {
   background: url(http://res.cloudinary.com/jkeohan/image/upload/v1509050166/header_bg_f5pvpn.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
 }
-
+section.testimonial {
+  background: url(http://res.cloudinary.com/jkeohan/image/upload/v1509050227/testimonial_bg_rd59w7.jpg) no-repeat center top #033048;
+  background-size: cover;
+}
+section.cta {
+  background-color: #f9e42e;
+}
 footer {
   background-color: #121212;
 }
@@ -165,16 +179,18 @@ footer {
 button {
   font-size: 12px;
   font-weight: 800;
-  color: #033048;
+  color: #fff;
+  background-color: #033048;
+  border: 1px solid #033048;
   border-radius: 5px;
-  background-color: #f9e42e;
-  border: 1px solid #f9e42e;
 }
 
 header button {
   font-size: 14px;
+  color: #033048;
+  background-color: #f9e42e;
+  border: 1px solid #f9e42e;
 }
-
 
 
 
