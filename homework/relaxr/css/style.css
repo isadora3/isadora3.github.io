@@ -47,6 +47,7 @@ Developer @GA in NYC
 
 body {
   color: #000;
+  background-color: #f0efef;
   font-size: 12px;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
@@ -95,6 +96,13 @@ twitter.png - http://res.cloudinary.com/jkeohan/image/upload/v1509050288/twitter
 
 /*text*/
 
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+}
+h1, h2 {
+  color: white;
+}
 h2 {
   font-size: 24px;
   font-weight: 600;
@@ -103,9 +111,23 @@ h3 {
   font-size: 20px;
   font-weight: 600;
 }
-p {
+p, ul {
   font-size: 18px;
   font-weight: 300;
+}
+ul {
+  list-style-type: dot;
+  padding-left: 45px;
+}
+li::before {
+  display: inline-block;
+  content: '•';
+  font-size: 50px;
+  line-height: 0;
+  color: #606161;
+  vertical-align: middle;
+  margin-top: -6px;
+  padding-right: 4px;
 }
 p.quote {
   font-style: italic;
@@ -113,9 +135,8 @@ p.quote {
 p.source {
   font-weight: 600;
 }
-.logo {
-  font-size: 24px;
-  font-weight: 800;
+footer p.logo {
+  color: #f9e42e;
 }
 footer p {
   font-size: 9px;
@@ -137,10 +158,16 @@ footer {
 
 /*non-semantic layout*/
 
+
+/*objects*/
+
 button {
   font-size: 12px;
   font-weight: 800;
+  color: #033048;
   border-radius: 5px;
+  background-color: #f9e42e;
+  border: 1px solid #f9e42e;
 }
 
 header button {
