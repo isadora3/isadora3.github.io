@@ -120,13 +120,15 @@ h3 {
 p, ul {
   font-size: 13px;
   font-weight: 300;
+  padding: 0 0 15px;
+  line-height: 1.5;
 }
 ul {
   font-size: 13px;
   font-weight: 300;
   list-style-type: dot;
   padding-left: 45px;
-  max-width: 400px;
+  max-width: 280px;
 }
 li::before {
   display: inline-block;
@@ -144,10 +146,12 @@ p.quote, p.source {
 p.quote {
   font-style: italic;
   color: #fff;
+  padding: 45px 0 5px;
 }
 p.source {
   font-weight: 600;
   color: #fff;
+  padding: 5px 0 50px;
 }
 footer p.logo {
   color: #f9e42e;
@@ -156,36 +160,6 @@ footer p {
   font-size: 9px;
   font-weight: 600;
   color: #fff;
-}
-
-
-/*semantic layout*/
-
-header {
-  background: url(http://res.cloudinary.com/jkeohan/image/upload/v1509050166/header_bg_f5pvpn.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;  
-  width: 100%;
-}
-section.testimonial {
-  background: url(http://res.cloudinary.com/jkeohan/image/upload/v1509050227/testimonial_bg_rd59w7.jpg) no-repeat center top #033048;
-  background-size: cover;
-}
-section.cta {
-  background-color: #f9e42e;
-}
-footer {
-  background-color: #121212;
-}
-
-
-/*non-semantic layout*/
-
-.benefits {
-  padding: 7% 20px 7% 7%;
-  max-width: 480px;
-}
-.cta {
-  text-align: center;
 }
 
 /*objects*/
@@ -208,14 +182,41 @@ header button {
   margin-bottom: 250px;
 }
 
+/*layout*/
 
-
-
-
-
-
-
-
-
-
+header {
+  background: url(http://res.cloudinary.com/jkeohan/image/upload/v1509050166/header_bg_f5pvpn.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;  
+  width: 100%;
+}
+section.benefits {
+  padding: 7% 20px 2% 7%;
+  max-width: 400px;
+}
+section.testimonial {
+  background: url(http://res.cloudinary.com/jkeohan/image/upload/v1509050227/testimonial_bg_rd59w7.jpg) no-repeat center top #033048;
+  background-size: cover;
+}
+section.testimonial p {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+section.cta {
+  background-color: #f9e42e;
+}
+.cta {
+  text-align: center;
+}
+footer {
+  background-color: #121212;
+  text-align: center;
+  padding: 25px;
+}
+div.social {
+  padding-bottom: 30px;
+}
+div.social img {
+  padding: 15px;
+}
 
