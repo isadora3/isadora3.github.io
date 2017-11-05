@@ -43,18 +43,55 @@ header li {
 header a {
   color: #fff;
 }
+main {
+  padding: 40px 0 20px;
+}
 #left-col {
   box-sizing: border-box;
   float: left;
-  padding: 40px 10px 20px 0;
+  padding-right: 15px;
   width: 66.66%;
 }
 #right-col {
   box-sizing: border-box;
   float: right;
-  padding: 40px 0 20px 20px;
+  padding-left: 15px;
   width: 33.33%; 
 }
+p.date {
+  color: #ccc;
+  font-size: 26px;
+  margin: 0;
+}
+h2 {
+  font-weight: 300;
+  font-size: 26px;
+  margin: 10px 0 0;
+}
 img {
+  color: #de1d17;
+  margin: 12px 0 0;
   max-width: 100%;
+}
+img + p:first-letter {
+  color: #ccc;
+  float: left;
+  font-size: 70px;
+  line-height: .7;
+  padding-right: 5px;
+}
+p {
+  color: #444;
+  font-size: 14px;
+  line-height: 1.4;
+}
+article p:last-child {
+  color: #de1d17;
+  font-weight: 600;
+  text-align: right;
+  margin-bottom: 20px;
+}
+article {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 40px;
 }
