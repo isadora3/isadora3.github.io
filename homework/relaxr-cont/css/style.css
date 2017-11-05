@@ -82,7 +82,7 @@ h1, h2 {
 img {
   color: red;
   margin: 15px 0;
-  max-width: 350px;
+  max-width: 100%;
 }
 img + p:first-letter {
   color: #606161;
