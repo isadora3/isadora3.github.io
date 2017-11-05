@@ -30,7 +30,7 @@
 /* Isadora's Styles */
 
 body {
-  color: #000;
+  background-color: #f0efef;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 1.4;
@@ -71,10 +71,7 @@ main {
 div#left-col {
   max-width: 350px;
   float: left;
-}
-div#right-col {
-  max-width: 125px;
-  float: right;
+  margin-bottom: 30px;
 }
 h1, h2 {
   color: #033048;
@@ -101,23 +98,86 @@ img + p:first-letter {
   text-align: right;
 }
 article {
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #033048;
   margin-bottom: 20px;
+}
+div#right-col {
+  max-width: 125px;
+  float: right;
+  margin-bottom: 30px;
+}
+div#right-col nav {
+  color: #033048;
+  font-weight: 400;
 }
 h3 {
   color: #033048;
   font-weight: 800;
+  margin-bottom: 5px;
+}
+p.learn-more {
+  margin-top: 0;
+  text-align: left;
+}
+aside#about-relaxr {
+  line-height: 1.2;
+  margin: 20px 0 0;
+}
+aside#about-relaxr p{
+  margin-top: 10px;
+}
+aside.banner-ad {
+  background-color: white;
+  text-align: center;
+  margin: 20px 0;
+  max-width: 120px;
+  max-height: 280px;
+}
+aside.banner-ad div.placeholder {
+  width: 120;
+  height: 280px;
+}
+aside.banner-ad h3 {
+  padding: 10px;
 }
 footer {
+  background-color: #121212;
   clear: both;
   text-align: center;
-  background-color: #121212;
-  text-align: center;
-  padding: 25px;
+  padding-bottom: 50px;
+}
+footer section.cta {
+  background-color: #f9e42e;
+  margin-bottom: 30px;
+}
+button {
+  color: #fff;
+  background-color: #033048;
+  border: 1px solid #033048;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 800;
+  margin: 20px;
+  padding: 7px 35px;
+}
+footer p.logo {
+  color: #f9e42e;
 }
 div.social {
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 }
 div.social img {
+  max-height: 50px;
+  max-width: 53px;
   padding: 15px;
 }
+footer p#copyright {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+
+
+
+
+
