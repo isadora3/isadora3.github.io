@@ -7,7 +7,7 @@ body {
   font-family: 'Lato', sans-serif;
   width: 90%;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
 }
 h1 {
   color: #de1d17;
@@ -44,7 +44,7 @@ header a {
   color: #fff;
 }
 main {
-  padding: 40px 0 20px;
+  padding: 40px 0 10px;
 }
 #left-col {
   box-sizing: border-box;
@@ -135,4 +135,23 @@ aside.banner-ad p{
   color: #de1d17;
   font-size: 13px;
   margin-left: 5px;
+}
+footer nav ul li {
+  color: #ccc;
+  float: left;
+  font-size: 14px;
+}
+footer nav ul li a {
+  color: #de1d17;
+}
+footer nav ul li::after {
+  content: " | ";
+  white-space: pre;
+}
+footer nav ul li:last-child::after {
+  content: "";
+}
+p.copyright {
+  font-size: 13px;
+  margin-top: 15px;
 }
