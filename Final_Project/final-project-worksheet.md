@@ -28,5 +28,5 @@ Include the full list of features that you will implement as part of your site's
 
 ## POST MVP
 
-Include the full list of features that you are considering for your site's POST MVP.
+Include the full list of features that you are considering for your site's POST MVP. This can include stuff that we don't know how to do yet.
 
