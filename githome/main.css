@@ -1,0 +1,82 @@
+/* all screen sizes */
+* {
+  box-sizing: border-box;
+}
+.clearfix::after {
+    content:"";
+    display:block;
+    clear:both;
+  }
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+header {
+  padding: 20px;
+}
+#logo-header {
+  max-width: 50px;
+}
+header nav {
+  border-bottom: 10px solid #2b2a2a;
+  padding-bottom: 10px;
+}
+header nav li {
+  float: left;
+  padding: 10px 15px 0 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+main {
+  padding: 0 20px;
+}
+main ul {
+  margin-left: -20px;
+}
+main ul li {
+  float: left;
+  margin: 0 0 20px 20px;
+  width: calc(100% - 20px);
+}
+main ul li div {
+  background-color: #000;
+  padding-bottom: 75%;
+  width: 100%;
+}
+main ul li div img {
+  float: left;
+  width: 100%;
+}
+
+/* screens above 320px */
+@media screen and (min-width:321px) {
+
+}
+
+/* screens above 480px */
+@media screen and (min-width:481px) {
+  header nav ul {
+    float: right;
+  }
+  header nav li {
+    padding: 20px 0 0 20px;
+  }
+  /*  make 2 columns  */
+  main ul li {
+    width: calc((100%/2) - 20px);
+  }
+}
+
+/* screens above 768px */
+@media screen and (min-width:769px) {
+  /*  make 3 columns  */
+  main ul li {
+    width: calc((100%/3) - 20px);
+  }  
+}
+
+/* screens above 1024px */
+@media screen and (min-width:1025px) {
+  
+}
