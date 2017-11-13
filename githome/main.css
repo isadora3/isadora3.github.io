@@ -9,6 +9,17 @@
   }
 body {
   font-family: 'Open Sans', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;  
+}
+a:link, a:visited {
+  color: #e2464a;
+}
+a:hover, a:active {
+  color: #7eceb5;
 }
 header {
   padding: 20px;
@@ -24,9 +35,11 @@ header nav li {
   float: left;
   padding: 10px 15px 0 0;
 }
-a {
-  text-decoration: none;
+header nav li a:link, header nav li a:visited {
   color: #000;
+}
+header nav li a:hover, header nav li a:active {
+  color: #7eceb5;
 }
 main {
   padding: 0 20px;
