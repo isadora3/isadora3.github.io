@@ -31,22 +31,56 @@ a {
 main {
   padding: 0 20px;
 }
-main ul {
+#about {
+  border-bottom: 10px solid #2b2a2a;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: .55;
+  padding: 8px 13px 25px 0;
+  text-transform: uppercase;
+}
+p {
+  line-height: 1.4;
+  margin: 0 0 7px;
+}
+#projects ul {
   margin-left: -20px;
 }
-main ul li {
+#projects ul li {
   float: left;
   margin: 0 0 20px 20px;
   width: calc(100% - 20px);
 }
-main ul li div {
+#projects ul li div {
   background-color: #000;
   padding-bottom: 75%;
+  position: relative;
   width: 100%;
 }
-main ul li div img {
+#projects ul li div img {
   float: left;
   width: 100%;
+}
+#projects ul li div p {
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 45%;
+}
+footer {
+  padding: 0 20px;
+}
+p.copyright {
+  border-top: 1px solid #000;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px;
 }
 
 /* screens above 320px */
@@ -63,20 +97,25 @@ main ul li div img {
     padding: 20px 0 0 20px;
   }
   /*  make 2 columns  */
-  main ul li {
+  #projects ul li {
     width: calc((100%/2) - 20px);
+  }
+  /*  wrap about text  */
+  h1 {
+    float: left;
+    padding-bottom: 20px;
   }
 }
 
 /* screens above 768px */
 @media screen and (min-width:769px) {
   /*  make 3 columns  */
-  main ul li {
+  #projects ul li {
     width: calc((100%/3) - 20px);
   }  
 }
 
 /* screens above 1024px */
 @media screen and (min-width:1025px) {
-  
+
 }
