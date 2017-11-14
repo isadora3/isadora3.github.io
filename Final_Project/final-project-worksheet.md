@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+The Goal of this project is to redesign the website of the Scorpion Systematics Research Group, part of the Arachnology Lab at the American Museum of Natural History. The current website content will be restructured and restyled for a better user experience. 
 
 | Site Url        | Desired Features           | 
 | ------------- |-------------| 
