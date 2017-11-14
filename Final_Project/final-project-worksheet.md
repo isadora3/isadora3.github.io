@@ -38,7 +38,7 @@ Sitemap:
 
 #### Mobile
 
-![AMNH Scorpions Sitemap](https://isadora3.github.io/Final_Project/wireframe-assets/mobile.jpg)
+![AMNH Scorpions Sitemap](https://isadora3.github.io/Final_Project/wireframe-assets/responsive-plan.jpg)
 
 ## MVP 
 
