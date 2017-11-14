@@ -14,6 +14,7 @@ The Goal of this project is to redesign the website of the Scorpion Systematics 
 | [Species Conservation Case Studies](https://www.speciesconservation.org/case-studies-projects/conservation-map) | - map of case studies |
 | [Shipmap](https://www.shipmap.org/) | - map with options to show/hide specific datatypes |
 | [Playa Vista Map](http://playavista.com/interactive-map/) | - interactive map with pop ups containing photos and details|
+| [The Knot](https://www.theknot.com/) | - grid of icons with descriptions below |
 
 ## Wireframes
 
@@ -24,6 +25,8 @@ Sitemap:
 ### Landing Page
 
 #### Desktop
+
+
 
 #### Tablet
 
