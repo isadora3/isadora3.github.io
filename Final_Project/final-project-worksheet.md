@@ -17,7 +17,9 @@ The Goal of this project is to redesign the website of the Scorpion Systematics 
 
 ## Wireframes
 
-Include wireframes for all pages included in the site including:
+Sitemap:
+
+![MacDown logo](http://macdown.uranusjr.com/static/images/logo-160.png)
 
 ### Landing Page
 
