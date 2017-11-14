@@ -4,7 +4,7 @@
 
 The Goal of this project is to redesign the website of the Scorpion Systematics Research Group, part of the Arachnology Lab at the American Museum of Natural History. The [current website content](http://scorpion.amnh.org/index.html) will be restructured and restyled for a better user experience.
 
-| Site Url        | Desired Features           | 
+| Site URL        | Desired Features           | 
 | ------------- |-------------| 
 | [Harvard University](https://www.harvard.edu/) | - sticky header minimizes on scroll <br> - can scroll 'past' top of screen, resulting in a spring effect |
 | [JRS Biodiversity Foundation](http://jrsbiodiversity.org/grants/national-museum-bloemfontein/)| - large horizontal sections to divide information <br> - tiled news stories/announcements | 
