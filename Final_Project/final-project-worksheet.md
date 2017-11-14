@@ -26,7 +26,7 @@ Sitemap:
 
 #### Desktop
 
-
+![AMNH Scorpions Sitemap](https://isadora3.github.io/Final_Project/wireframe-assets/desktop.jpg)
 
 #### Tablet
 
