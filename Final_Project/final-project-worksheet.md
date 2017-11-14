@@ -19,7 +19,7 @@ The Goal of this project is to redesign the website of the Scorpion Systematics 
 
 Sitemap:
 
-![MacDown logo](http://macdown.uranusjr.com/static/images/logo-160.png)
+![AMNH Scorpions Sitemap](https://isadora3.github.io/Final_Project/sitemap.jpg)
 
 ### Landing Page
 
