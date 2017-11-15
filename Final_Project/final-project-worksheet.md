@@ -16,17 +16,19 @@ The Goal of this project is to redesign the website of the Scorpion Systematics 
 | [Playa Vista Map](http://playavista.com/interactive-map/) | - interactive map with pop ups containing photos and details|
 | [The Knot](https://www.theknot.com/) | - grid of icons with descriptions below |
 
-## Wireframes
-
-Sitemap:
+##Sitemap:
 
 ![AMNH Scorpions Sitemap](https://isadora3.github.io/Final_Project/sitemap.jpg)
 
-### Landing Page
+## Wireframes
 
-#### Desktop
+#### Desktop Homepage
 
 ![AMNH Scorpions Sitemap](https://isadora3.github.io/Final_Project/wireframe-assets/desktop.jpg)
+
+#### Desktop with Animation
+
+![AMNH Scorpions Sitemap](https://isadora3.github.io/Final_Project/wireframe-assets/desktop-animation.jpg)
 
 ### Responsive Plan
 
@@ -39,6 +41,7 @@ Sitemap:
 #### Mobile
 
 ![AMNH Scorpions Sitemap](https://isadora3.github.io/Final_Project/wireframe-assets/mobile.jpg)
+
 
 ## MVP 
 
@@ -57,5 +60,5 @@ Sitemap:
 - Parallax images in background on homepage and fieldwork page
 - Link people to their resume and research gate
 - Build out all interactive map pop ups
-- Pull additional map data and give options to show/hide specific datatypes
+- Pull additional map data and give options to show/hide specific data types
 
