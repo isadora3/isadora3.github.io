@@ -12,7 +12,7 @@ The Goal of this project is to redesign the website of the Scorpion Systematics 
 | [Community Ecology Lab](https://www.fbaccaro-ecolab.com/) | - parallax images of specimens <br> - map of lab location | 
 | [Arnedolab](http://www.marnedo.net/) | - sections slowly drift horizontally on scroll <br> - screen takeover image and logo <br> - logos of associted labs and programs| 
 | [Species Conservation Case Studies](https://www.speciesconservation.org/case-studies-projects/conservation-map) | - map of case studies |
-| [Shipmap](https://www.shipmap.org/) | - map with options to show/hide specific datatypes |
+| [Shipmap](https://www.shipmap.org/) | - map with options to show/hide specific data types |
 | [Playa Vista Map](http://playavista.com/interactive-map/) | - interactive map with pop ups containing photos and details|
 | [The Knot](https://www.theknot.com/) | - grid of icons with descriptions below |
 
