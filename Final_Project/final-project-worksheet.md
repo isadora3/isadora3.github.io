@@ -16,7 +16,7 @@ The Goal of this project is to redesign the website of the Scorpion Systematics 
 | [Playa Vista Map](http://playavista.com/interactive-map/) | - interactive map with pop ups containing photos and details|
 | [The Knot](https://www.theknot.com/) | - grid of icons with descriptions below |
 
-##Sitemap:
+## Sitemap:
 
 ![AMNH Scorpions Sitemap](https://isadora3.github.io/Final_Project/sitemap.jpg)
 
