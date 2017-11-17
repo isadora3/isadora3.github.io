@@ -11,6 +11,7 @@ The Goal of this project is to redesign the website of the Scorpion Systematics 
 | [Aracnolab Staff & Alumni List](http://www.museunacional.ufrj.br/mndi/Aracnologia/Alumni.html) | - list of people with links to their resume and research gate |  
 | [Community Ecology Lab](https://www.fbaccaro-ecolab.com/) | - parallax images of specimens <br> - map of lab location | 
 | [Arnedolab](http://www.marnedo.net/) | - sections slowly drift horizontally on scroll <br> - screen takeover image and logo <br> - logos of associted labs and programs| 
+| [Arendolab Staff](http://www.marnedo.net/entire-team) | - fade in on scroll |
 | [Species Conservation Case Studies](https://www.speciesconservation.org/case-studies-projects/conservation-map) | - map of case studies |
 | [Shipmap](https://www.shipmap.org/) | - map with options to show/hide specific data types |
 | [Playa Vista Map](http://playavista.com/interactive-map/) | - interactive map with pop ups containing photos and details|
