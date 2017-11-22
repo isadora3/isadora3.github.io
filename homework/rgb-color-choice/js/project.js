@@ -1,15 +1,23 @@
-// 1. Use document.querySelector() and assign the .onclick event to #color-button
+// user inputs numbers into input fields
+// user click on what appears to be a button = add an event listener
+// grab the input from all three inputs
+// create a string that represents the rgb function 
+// also include the inputs and commas
+// set the background to be the new rgb
+// update the html to include the new rgb html
 
-// 2. Write a function, named changeColor, that is called when #color-button is clicked
 
-// 3. Inside of the function changeColor, use variables to store the <input> values from #red, #green, and #blue
-// - Use .value to get the values from the inputs
-// HINT: var red = document.querySelector('red').value;
 
-// 4. Create a variable, named colorStr, which concatenates the above red, green, and blue variables into the format:
-// rgb(x, y, z)
-// - If the user enters: 100, 150, and 200, colorStr should be: rgb(100, 150, 200)
-
-// 5. Use .innerHTML to change the text inside of #colorful-text to colorStr
-
-// 6. Use .style.background to change the background of #wrapper to colorStr
+$('#color-button').click(updateColors)
+function updateColors() {
+  let red = $('#red').val(); console.log(red);
+  let blue = $('#blue').val(); console.log(blue);
+  let green = $('#green').val(); console.log(green);
+  let rbgVal = "R.B.G (" + red + "," + blue + "," + green + ")";
+  let rgbVal = "rgb("+ red + "," + green + "," + blue + ")";
+  $('body').css('background-color',rgbVal);
+  // $('#color-button').css('color',rgbVal);
+  $('#colorful-text').html(rbgVal);
+}
+//   const rgbVal = "rgb("+ red + "," + green + "," + blue + ")"; console.log(rgbVal);
+  // $('body').css('background',rgbVal);

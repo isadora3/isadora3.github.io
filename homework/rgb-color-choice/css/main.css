@@ -1,0 +1,61 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: black;
+  background: url(http://i0.kym-cdn.com/photos/images/facebook/000/933/109/ed6.png);
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-position: 50% 305px;
+  background-size: 300px;
+}
+
+#wrapper {
+    position:absolute;
+    top:0; right:0;
+    bottom:0; left:0;
+
+}
+
+#colorfultext {
+  font-size: 5em;
+  text-align: center;
+}
+
+input {
+  font-family: Courier, monospace;
+  height: 2em;
+  width: 2em;
+  font-size: 2em;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+a {
+  cursor: pointer;
+  display: block;
+  font-family: Arial, sans-serif;
+  height: 4em;
+  margin: 1em auto;
+  width: 20em;
+  background-color: white;
+  color: black;
+  text-align: center;
+  line-height: 4em;
+  border: solid 4px black;
+/*  background-color: #999999; */
+/*  border-bottom: solid 2px #444444; */
+/*  border-right: solid 2px #444444; */
+}
+
+
+a:active {
+  border-top: solid 2px #444444;
+  border-left: solid 2px #444444;
+  border-bottom: none;
+  border-right: none;
+}
+img {
+  margin: 20px;
+  width: 300px;
+}
