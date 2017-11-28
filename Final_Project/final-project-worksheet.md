@@ -2,7 +2,7 @@
 
 ## Project Description
 
-The Goal of this project is to redesign the website of the Scorpion Systematics Research Group, part of the Arachnology Lab at the American Museum of Natural History. The [current website content](http://scorpion.amnh.org/index.html) will be restructured and restyled for a better user experience.
+The Goal of [this project](https://isadora3.github.io/amnh-scorpions) is to redesign the website of the Scorpion Systematics Research Group, part of the Arachnology Lab at the American Museum of Natural History. The [current website content](http://scorpion.amnh.org/index.html) will be restructured and restyled for a better user experience.
 
 | Site URL        | Desired Features           | 
 | ------------- |-------------| 
