@@ -16,6 +16,7 @@ The Goal of [this project](https://isadora3.github.io/amnh-scorpions) is to rede
 | [Shipmap](https://www.shipmap.org/) | - map with options to show/hide specific data types |
 | [Playa Vista Map](http://playavista.com/interactive-map/) | - interactive map with pop ups containing photos and details|
 | [The Knot](https://www.theknot.com/) | - grid of icons with descriptions below |
+| [Lynda](https://www.lynda.com) | - background zoom and description on hover |
 
 ## Sitemap
 
