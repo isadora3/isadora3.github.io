@@ -17,6 +17,7 @@ The Goal of [this project](https://isadora3.github.io/amnh-scorpions) is to rede
 | [Playa Vista Map](http://playavista.com/interactive-map/) | - interactive map with pop ups containing photos and details|
 | [The Knot](https://www.theknot.com/) | - grid of icons with descriptions below |
 | [Lynda](https://www.lynda.com) | - background zoom and description on hover |
+|[MJML](https://mjml.io/) | - email campaign framework |
 
 ## Sitemap
 
@@ -63,4 +64,5 @@ The Goal of [this project](https://isadora3.github.io/amnh-scorpions) is to rede
 - Link people to their resume and research gate
 - Build out all interactive map pop ups
 - Pull additional map data and give options to show/hide specific data types
+- Email newsletter
 
