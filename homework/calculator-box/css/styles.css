@@ -1,28 +1,50 @@
-h3, p {
-  text-align: center;
+*{
+  box-sizing: border-box;
+}
+
+body {
   font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+}
+.wrapper {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 45px 20px 25px;
+}
+h3, p {
+  margin: 5px;
 }
 
 #app {
   padding-top: 30px;
   font-family: monospace;
-  width: 500px;
-  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.clear {
+/*.clear {
   clear: both;
+}*/
+
+.row {
+  display: flex;
+  flex-direction: row;
 }
 
 .row div {
-  text-align: center;
-  width: 100px;
-  padding: 30px;
-  border: 1px dashed #252525;
-  float: left;
+  /*text-align: center;*/
+  /*padding: 30px;*/
+  border: 1px dotted #777;
+  display: flex;
+  flex-basis: calc(100% / 3);
+  justify-content: center;
+  /*float: left;*/
 }
 
 .row div:hover {
-  background-color: #cccccc;
+  background-color: #eee;
   cursor: pointer;
 }
