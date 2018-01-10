@@ -1,2 +1,2 @@
-# Intro
-This is a test of using github sublime text and github desktop
+# FEWD at General Assembly
+Classwork, homework, and experiments by Isadora Williams for Joe Keohan's Front-End Web Development Class at General Assembly in NYC.
