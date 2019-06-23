@@ -21,29 +21,29 @@ The Goal of [this project](http://arachnology-amnh.org) is to redesign the websi
 
 ## Sitemap
 
-![AMNH Scorpions Sitemap](https://isadora3.github.io/Final_Project/sitemap.jpg)
+![AMNH Scorpions Sitemap](https://dl.dropbox.com/s/1irpp5knrgiaxfi/sitemap.jpg)
 
 ## Wireframes
 
 #### Desktop Homepage
 
-![AMNH Scorpions Sitemap](https://isadora3.github.io/Final_Project/wireframe-assets/desktop.jpg)
+![AMNH Scorpions Sitemap](https://dl.dropbox.com/s/vfx947mzg76p0jr/desktop.jpg)
 
 #### Desktop with Animation
 
-![AMNH Scorpions Sitemap](https://isadora3.github.io/Final_Project/wireframe-assets/desktop-animation.jpg)
+![AMNH Scorpions Sitemap](https://dl.dropbox.com/s/qw54rf1aj0qfvby/desktop-animation.jpg)
 
 ### Responsive Plan
 
-![AMNH Scorpions Sitemap](https://isadora3.github.io/Final_Project/wireframe-assets/responsive-plan.jpg)
+![AMNH Scorpions Sitemap](https://dl.dropbox.com/s/n0acyquy7w96zaz/responsive-plan.jpg)
 
 #### Tablet
 
-![AMNH Scorpions Sitemap](https://isadora3.github.io/Final_Project/wireframe-assets/tablet.jpg)
+![AMNH Scorpions Sitemap](https://dl.dropbox.com/s/pcgw1b3v395t2fl/tablet.jpg)
 
 #### Mobile
 
-![AMNH Scorpions Sitemap](https://isadora3.github.io/Final_Project/wireframe-assets/mobile.jpg)
+![AMNH Scorpions Sitemap](https://dl.dropbox.com/s/qd9zjxwl67jf4pq/mobile.jpg)
 
 
 ## MVP 
